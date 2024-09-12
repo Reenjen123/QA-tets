@@ -37,7 +37,7 @@ public class IntegrationTest {
     @Test
     public void testZeroTaxCalculation() {
         int base_salary = 100;
-        int bonus = 60;
+        int bonus = 50;
         double taxRate = 0;
         int expectedResult = 0;
         int result = taxCalculator.calculateTax(base_salary,bonus, taxRate);
